@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #bdc3c7;
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+background: linear-gradient(to right, #2c3e50, #bdc3c7);
+
+}
+
+img{
+    height: 100px;
+    width: 200px;
+}
+
+h1{
+    color: rgb(100, 75, 12);
+    border: 10px solid rgb(67, 63, 63);
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+span{
+    color: red;
+}
+
+.start{
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    border: 5px solid red;
+    position: absolute;
+    right: 250px;
+    top: 30px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.start:hover{
+    background-color: white;
+}
+
+.maincon{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.btn-container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    position: absolute;
+    top: 0px;
+}
+
+.btn-container2{
+    display: flex;
+    justify-content: center;
+    border: 10px solid white;
+    width: fit-content;
+    background-color: black;
+    margin-top: 30px;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 10px solid white;
+    border-radius: 20%;
+    margin: 2.5rem;
+    text-align: center;
+}
+
+.white{
+    background-color: white;
+}
+.yellow{
+    background-color: yellow;
+    opacity: 0.15;
+}
+.red{
+    background-color: red;
+    opacity: 0.15;
+}
+.blue{
+    background-color: rgb(33, 153, 175);
+    opacity: 0.15;
+}
+.green{
+    background-color: green;
+    opacity: 0.15;
+}
+.col{
+    color: red;
+    font-weight: bolder;
+    font-size: xx-large;
+}
